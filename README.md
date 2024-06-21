@@ -34,8 +34,8 @@ To get started, clone the repository and install the required dependencies:
 
 # Datasets
 
-1. OASIS Cross-Sectional Dataset (Alzheimer_Detection\oasis_cross-sectional.csv): Contains MRI and clinical data collected at a single time point for each subject.
-2. OASIS Longitudinal Dataset (Alzheimer_Detection\oasis_longitudinal.csv): Contains MRI and clinical data collected over multiple time points for each subject, allowing for the study of disease progression.
+1. OASIS Cross-Sectional Dataset (oasis_cross-sectional.csv): Contains MRI and clinical data collected at a single time point for each subject.
+2. OASIS Longitudinal Dataset (oasis_longitudinal.csv): Contains MRI and clinical data collected over multiple time points for each subject, allowing for the study of disease progression.
 
 Download the dataset from (OASIS(https://sites.wustl.edu/oasisbrains/)).
 
@@ -43,12 +43,12 @@ Download the dataset from (OASIS(https://sites.wustl.edu/oasisbrains/)).
 
 The data preprocessing steps include:
 
-   ~ Loading the datasets.
-   ~ Inspecting the data for missing values and data types.
-   ~ Cleaning the data by dropping unnecessary columns and rows with missing target values.
-   ~ Imputing missing values using different strategies.
-   ~ Encoding categorical variables.
-   ~ Scaling features for model training.
+   1. Loading the datasets.
+   2. Inspecting the data for missing values and data types.
+   3. Cleaning the data by dropping unnecessary columns and rows with missing target values.
+   4. Imputing missing values using different strategies.
+   5. Encoding categorical variables.
+   6. Scaling features for model training.
 
 # Model Training and Evaluation
 
@@ -101,16 +101,16 @@ The data preprocessing steps include:
 
   # Research Design
 
-   ~ Sampling Technique: Stratified sampling was used to ensure representative distribution of subjects across different stages of Alzheimer's  disease.
-   ~ Sample Size: The sample size includes all available subjects from the OASIS datasets, with appropriate train-test splits to ensure robust model evaluation.
-   ~ Data Collection Procedure: Data was sourced from the publicly available OASIS datasets, preprocessed, and used to extract relevant features for machine learning models.
-   ~ Data Collection Instrument: MRI scans and clinical assessments were the primary instruments for data collection.
+   1. Sampling Technique: Stratified sampling was used to ensure representative distribution of subjects across different stages of Alzheimer's  disease.
+   2. Sample Size: The sample size includes all available subjects from the OASIS datasets, with appropriate train-test splits to ensure robust model evaluation.
+   3. Data Collection Procedure: Data was sourced from the publicly available OASIS datasets, preprocessed, and used to extract relevant features for machine learning models.
+   4. Data Collection Instrument: MRI scans and clinical assessments were the primary instruments for data collection.
 
    # Machine Learning Process
 
-    ~ Feature Selection and Extraction: Relevant features such as age, MRI-derived brain volumes, and cognitive scores were selected.
-    ~ Model Training: Various algorithms including logistic regression, decision trees, random forests, support vector machines (SVM), and neural networks were trained and evaluated.
-    ~ Parameter Tuning: Hyperparameters were optimized using techniques like grid search and cross-validation.
+   1. Feature Selection and Extraction: Relevant features such as age, MRI-derived brain volumes, and cognitive scores were selected.
+   2. Model Training: Various algorithms including logistic regression, decision trees, random forests, support vector machines (SVM), and neural networks were trained and evaluated.
+   3. Parameter Tuning: Hyperparameters were optimized using techniques like grid search and cross-validation.
 
 # Limitations
 
