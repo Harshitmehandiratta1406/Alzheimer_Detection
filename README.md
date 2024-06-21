@@ -85,14 +85,12 @@ The data preprocessing steps include:
    
    cm = confusion_matrix(y_test, y_pred)
    clr = classification_report(y_test, y_pred)
-
    plt.figure(figsize=(8, 8))
    sns.heatmap(cm, annot=True, vmin=0, fmt='g', cbar=False, cmap='Blues')
    plt.xlabel("Predicted")
    plt.ylabel("Actual")
    plt.title("Confusion Matrix")
    plt.show()
-
    print("Classification Report:\n----------------------\n", clr)
 
 
