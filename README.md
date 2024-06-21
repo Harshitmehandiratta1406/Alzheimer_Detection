@@ -34,8 +34,8 @@ To get started, clone the repository and install the required dependencies:
 
 # Datasets
 
-~ OASIS Cross-Sectional Dataset (Alzheimer_Detection\oasis_cross-sectional.csv): Contains MRI and clinical data collected at a single time point for each subject.
-~ OASIS Longitudinal Dataset (Alzheimer_Detection\oasis_longitudinal.csv): Contains MRI and clinical data collected over multiple time points for each subject, allowing for the study of disease progression.
+1. OASIS Cross-Sectional Dataset (Alzheimer_Detection\oasis_cross-sectional.csv): Contains MRI and clinical data collected at a single time point for each subject.
+2. OASIS Longitudinal Dataset (Alzheimer_Detection\oasis_longitudinal.csv): Contains MRI and clinical data collected over multiple time points for each subject, allowing for the study of disease progression.
 
 Download the dataset from (OASIS(https://sites.wustl.edu/oasisbrains/)).
 
