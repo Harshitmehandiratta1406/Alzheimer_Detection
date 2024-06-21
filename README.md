@@ -112,19 +112,7 @@ The data preprocessing steps include:
    2. Model Training: Various algorithms including logistic regression, decision trees, random forests, support vector machines (SVM), and neural networks were trained and evaluated.
    3. Parameter Tuning: Hyperparameters were optimized using techniques like grid search and cross-validation.
 
-# Limitations
 
-  1. Sample Size and Representativeness: While the OASIS dataset is comprehensive, the sample may not fully represent the broader population.
-  2. Data Quality: Variability in MRI scan quality and clinical assessments could impact model accuracy.
-  3. User Experience: The complexity of interpreting MRI data and model outputs can affect user adoption.
-  4. Privacy and Security: Handling sensitive medical data requires stringent privacy and security measures.
-  5. Generalizability: Models trained on OASIS data may not generalize well to other datasets or populations.
-  6. Response Bias: Potential biases in clinical assessments and subject reporting.
-  7. Subjective Nature of Qualitative Data: Variability in clinical assessments and cognitive tests.
-  8. Cross-Sectional Design: Limited ability to infer causal relationships.
-  9. Resource Constraints: Computational resources required for training and validating complex models.
-  10. External Factors: Uncontrolled variables that could affect model performance.
-  11. Strengths and Weaknesses: Detailed analysis of the model's performance, robustness, and areas needing improvement.
 
 # Results
 
@@ -139,9 +127,3 @@ To use this project:
    3. Download the dataset and place it in the project directory.
    4. Run the Jupyter notebook or Python script to preprocess the data, train the model, and evaluate its performance.
 
-# Biblography
-
- 1. Marcus, D. S., et al. "Open Access Series of Imaging Studies (OASIS): Cross-Sectional MRI Data in Young, Middle-Aged, Nondemented, and Demented Older Adults." Journal of Cognitive Neuroscience, 2007.
- 2. Marcus, D. S., et al. "Open Access Series of Imaging Studies: Longitudinal MRI Data in Nondemented and Demented Older Adults." Journal of Cognitive Neuroscience, 2010.
- 3. Jack, C. R., et al. "The Alzheimer's Disease Neuroimaging Initiative (ADNI): MRI Methods." Journal of Magnetic Resonance Imaging, 2008.
- 4. McKhann, G., et al. "The Diagnosis of Dementia Due to Alzheimer's Disease: Recommendations from the National Institute on Aging-Alzheimer's Association Workgroups on Diagnostic Guidelines for Alzheimer's Disease." Alzheimer's & Dementia, 2011.
