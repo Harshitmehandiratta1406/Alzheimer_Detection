@@ -26,9 +26,9 @@ The primary objective of this project is to develop a machine learning-based sys
 
 To get started, clone the repository and install the required dependencies:
 
-  git clone https://github.com/Harshitmehandiratta1406/Alzheimer_Detection.git
-  cd Alzheimer_Detection
-  pip install -r requirements.txt
+ 1. git clone https://github.com/Harshitmehandiratta1406/Alzheimer_Detection.git
+ 2. cd Alzheimer_Detection
+ 3. pip install -r requirements.txt
 
 
 
