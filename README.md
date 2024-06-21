@@ -10,13 +10,9 @@ This repository contains the implementation of an Alzheimer's detection system u
     ~ Data Preprocessing
     ~ Model Training and Evaluation
     ~ Methodology
-    ~ Limitations
     ~ Results
     ~ Usage
-    ~ Bibliography
    
-
-
 
 # Objective
 
