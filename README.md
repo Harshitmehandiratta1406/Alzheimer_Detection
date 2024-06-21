@@ -25,16 +25,18 @@ The primary objective of this project is to develop a machine learning-based sys
 # Installation
 
 To get started, clone the repository and install the required dependencies:
-git clone https://github.com/Harshitmehandiratta1406/.git
-cd 
+git clone https://github.com/Harshitmehandiratta1406/Alzheimer_Detection.git
+cd Alzheimer_Detection
 pip install -r requirements.txt
 
 
 
 # Datasets
 
-~ OASIS Cross-Sectional Dataset (oasis_cross-sectional.csv): Contains MRI and clinical data collected at a single time point for each subject.
-~ OASIS Longitudinal Dataset (oasis_longitudinal.csv): Contains MRI and clinical data collected over multiple time points for each subject, allowing for the study of disease progression.
+~ OASIS Cross-Sectional Dataset (Alzheimer_Detection\oasis_cross-sectional.csv): Contains MRI and clinical data collected at a single time point for each subject.
+~ OASIS Longitudinal Dataset (Alzheimer_Detection\oasis_longitudinal.csv): Contains MRI and clinical data collected over multiple time points for each subject, allowing for the study of disease progression.
+
+Download the dataset from (OASIS(https://sites.wustl.edu/oasisbrains/)).
 
 # Data Preprocessing
 
@@ -106,7 +108,7 @@ The data preprocessing steps include:
    # Machine Learning Process
 
     ~ Feature Selection and Extraction: Relevant features such as age, MRI-derived brain volumes, and cognitive scores were selected.
-    ~ Model Training: Various algorithms including logistic regression, decision trees, random forests, support vector machines (SVM), and      neural networks were trained and evaluated.
+    ~ Model Training: Various algorithms including logistic regression, decision trees, random forests, support vector machines (SVM), and neural networks were trained and evaluated.
     ~ Parameter Tuning: Hyperparameters were optimized using techniques like grid search and cross-validation.
 
 # Limitations
